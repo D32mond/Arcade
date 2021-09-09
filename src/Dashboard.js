@@ -24,6 +24,7 @@ import { mainListItems, secondaryListItems } from './listItems';
 import Chart from './Chart';
 import Deposits from './Deposits';
 import Orders from './Orders';
+import Description from './Description';
 
 function Copyright() {
   return (
@@ -46,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
   },
   toolbar: {
     paddingRight: 24, // keep right padding when drawer closed
+    backgroundColor: '#474747',
   },
   toolbarIcon: {
     display: 'flex',
@@ -81,6 +83,8 @@ const useStyles = makeStyles((theme) => ({
   drawerPaper: {
     position: 'relative',
     whiteSpace: 'nowrap',
+    backgroundColor: '#474747',
+    color: '#bf0000',
     width: drawerWidth,
     transition: theme.transitions.create('width', {
       easing: theme.transitions.easing.sharp,
@@ -103,10 +107,12 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     height: '100vh',
     overflow: 'auto',
+    backgroundColor: '#777777',
   },
   container: {
     paddingTop: theme.spacing(4),
     paddingBottom: theme.spacing(4),
+    backgroundColor: '#777777',
   },
   paper: {
     padding: theme.spacing(2),
@@ -118,8 +124,8 @@ const useStyles = makeStyles((theme) => ({
     height: 240,
   },
   large: {
-    width: theme.spacing(8),
-    height: theme.spacing(8),
+    width: theme.spacing(7),
+    height: theme.spacing(7),
   },
 }));
 
@@ -183,11 +189,18 @@ export default function Dashboard() {
         <List>{secondaryListItems}</List>
       </Drawer>
       <main className={classes.content}>
+      <div id="Description"/>
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={3}>
+            {/*Description */}
+            <Grid item xs={12}>
+              <Paper className={classes.paper}>
+                  <Description />
+              </Paper>
+            </Grid>
             {/* Chart */}
-            <Grid item xs={12} md={8} lg={9}>
+            <Grid item xs={12}>
               <Paper className={fixedHeightPaper}>
                 <Chart />
               </Paper>
