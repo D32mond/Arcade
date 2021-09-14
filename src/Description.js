@@ -15,7 +15,7 @@ export default function Dashboard() {
     <React.Fragment>
       <Title>Description</Title>
       <p><b>L'Arcade</b> est un serveur discord semi-communautaires, initialment crée par <b><font color="#bf0000">Major72</font></b>, pour regrouper certains joueurs d'un ancien serveur discord semi-rp d'Unturned.<br/>
-      Sont n'accès n'est pas public, mais ouvert au connaissances des membres déjà présents.
+      Son accès n'est pas public, mais est ouvert au connaissances des membres déjà présents.
       </p>
     </React.Fragment>
   );
