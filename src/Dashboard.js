@@ -25,6 +25,7 @@ import Chart from './Chart';
 import Deposits from './Deposits';
 import Orders from './Orders';
 import Description from './Description';
+import Membres from './Membres';
 
 function Copyright() {
   return (
@@ -127,6 +128,10 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(7),
     height: theme.spacing(7),
   },
+  centre: {
+    position: 'relative',
+    paddingTop: '100px',
+  }
 }));
 
 export default function Dashboard() {
@@ -157,7 +162,7 @@ export default function Dashboard() {
           <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
             <Row color={'#bf0000'}>
               <Column margin={'5px'}>
-                <Avatar alt="Remy Sharp" src="https://cdn.discordapp.com/icons/486565362901450771/980ccb3a3dcb985fd97f0350f0c53da6.png" className={classes.large}/>
+                <Avatar alt="Arcade Logo" src="https://cdn.discordapp.com/icons/486565362901450771/980ccb3a3dcb985fd97f0350f0c53da6.png" className={classes.large}/>
               </Column>
               <Column marginTop={'10px'} marginLeft={'10px'} fontSize={'30px'}>
                 <b>L'Arcade</b>
@@ -189,7 +194,7 @@ export default function Dashboard() {
         <List>{secondaryListItems}</List>
       </Drawer>
       <main className={classes.content}>
-      <div id="Description"/>
+        <div id="Description"/>
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={3}>
@@ -197,6 +202,13 @@ export default function Dashboard() {
             <Grid item xs={12}>
               <Paper className={classes.paper}>
                   <Description />
+              </Paper>
+            </Grid>
+            {/*Membres */}
+            <div id='Membre' className={classes.centre}/>
+            <Grid item xs={12}>
+              <Paper className={classes.paper}>
+                  <Membres />
               </Paper>
             </Grid>
             {/* Chart */}
