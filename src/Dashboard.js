@@ -128,10 +128,6 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(7),
     height: theme.spacing(7),
   },
-  centre: {
-    position: 'relative',
-    paddingTop: '100px',
-  }
 }));
 
 export default function Dashboard() {
@@ -205,8 +201,7 @@ export default function Dashboard() {
               </Paper>
             </Grid>
             {/*Membres */}
-            <div id='Membre' className={classes.centre}/>
-            <Grid item xs={12}>
+            <Grid id={'Membre'} style={{paddingTop:'70px'}} item xs={12}>
               <Paper className={classes.paper}>
                   <Membres />
               </Paper>
