@@ -3,6 +3,8 @@ import Title from './Title';
 import Avatar from '@material-ui/core/Avatar';
 import { makeStyles } from '@material-ui/core/styles';
 import {Column, Row} from '@mui-treasury/components/flex';
+import { borders } from '@material-ui/system';
+import Box from '@material-ui/core/Box';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -94,6 +96,10 @@ export default function Membres() {
           <h3>xPattate</h3>
         </Column>
       </Row>
+
+      <Box borderTop={1} borderColor='#858585'/>
+
+      <p> Helllo</p>
 
     </React.Fragment>
   );

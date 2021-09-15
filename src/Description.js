@@ -19,9 +19,18 @@ export default function Dashboard() {
       Il permet de regroupé des joueurs de confiances sur différents jeux, de niveaux d'expériences différents et d'ages différents.<br/>
       Le serveur gravite autour de trois rôles principaux:
       <ul>
-        <li><font color="#500707">Gérants de la salle</font></li>
-        <li><font color="#0ee41d">Vétérants de l'Arcade</font></li>
-        <li><font color="#5182ee">Habitués</font></li>
+        <li>
+          <font color="#500707">Gérants de la salle</font>
+          <p>Plus haut grade du serveur en charge de la gestion de celui-ci.</p>
+        </li>
+        <li>
+          <font color="#0ee41d">Vétérants de l'Arcade</font>
+          <p>Membres les plus présents et proches des membres initiaux, ils possèdent des droits restreint.</p>
+        </li>
+        <li>
+          <font color="#5182ee">Habitués</font>
+          <p>Membres qui ont une présences moindres des Vétérants.</p>
+        </li>
       </ul>
       </p>
     </React.Fragment>
