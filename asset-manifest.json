@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Arcade/static/css/main.b3165179.chunk.css",
-    "main.js": "/Arcade/static/js/main.aab0f124.chunk.js",
-    "main.js.map": "/Arcade/static/js/main.aab0f124.chunk.js.map",
+    "main.js": "/Arcade/static/js/main.9cfa86d7.chunk.js",
+    "main.js.map": "/Arcade/static/js/main.9cfa86d7.chunk.js.map",
     "runtime-main.js": "/Arcade/static/js/runtime-main.1636301a.js",
     "runtime-main.js.map": "/Arcade/static/js/runtime-main.1636301a.js.map",
-    "static/js/2.7c44d671.chunk.js": "/Arcade/static/js/2.7c44d671.chunk.js",
-    "static/js/2.7c44d671.chunk.js.map": "/Arcade/static/js/2.7c44d671.chunk.js.map",
+    "static/js/2.c52f3d61.chunk.js": "/Arcade/static/js/2.c52f3d61.chunk.js",
+    "static/js/2.c52f3d61.chunk.js.map": "/Arcade/static/js/2.c52f3d61.chunk.js.map",
     "static/js/3.6399dc75.chunk.js": "/Arcade/static/js/3.6399dc75.chunk.js",
     "static/js/3.6399dc75.chunk.js.map": "/Arcade/static/js/3.6399dc75.chunk.js.map",
     "index.html": "/Arcade/index.html",
     "static/css/main.b3165179.chunk.css.map": "/Arcade/static/css/main.b3165179.chunk.css.map",
-    "static/js/2.7c44d671.chunk.js.LICENSE.txt": "/Arcade/static/js/2.7c44d671.chunk.js.LICENSE.txt",
+    "static/js/2.c52f3d61.chunk.js.LICENSE.txt": "/Arcade/static/js/2.c52f3d61.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/Arcade/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1636301a.js",
-    "static/js/2.7c44d671.chunk.js",
+    "static/js/2.c52f3d61.chunk.js",
     "static/css/main.b3165179.chunk.css",
-    "static/js/main.aab0f124.chunk.js"
+    "static/js/main.9cfa86d7.chunk.js"
   ]
 }
